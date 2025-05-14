@@ -16,7 +16,7 @@
 		</p>
 	</div>
 	<div class="image">
-		<Image src="/images/sample-image.png" alt="Sample for the static template" />
+		<Image src="/images/danube.jpeg" alt="Sample for the static template" />
 	</div>
 </section>
 
