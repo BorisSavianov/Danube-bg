@@ -16,7 +16,7 @@
 		</p>
 	</div>
 	<div class="image">
-		<Image src="/images/danube.jpeg" alt="Sample for the static template" />
+		<Image src="/images/danube.jpg" alt="Image of the Danube river" />
 	</div>
 </section>
 
@@ -73,8 +73,8 @@
 		}
 
 		.image {
-			width: 220px;
-			height: 220px;
+			width: 420px;
+			height: 420px;
 		}
 	}
 </style>

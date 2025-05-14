@@ -1,67 +1,122 @@
 ---
-title: How Blog Posts Work
+title: Моруните-символ на животинския свят в река Дунав
 slug: blog-posts
-coverImage: /images/posts/blog-posts.jpg
+coverImage: /images/moruna1.jpg
 date: 2023-04-22T21:55:15.361Z
 excerpt: How to manage existing blog posts and create new ones
-tags:
-  - Documentation
+
 ---
 
 <script>
-  import Callout from "$lib/components/molecules/Callout.svelte";
-  import CodeBlock from "$lib/components/molecules/CodeBlock.svelte";
-  import Image from "$lib/components/atoms/Image.svelte";
+ // import Callout from "$lib/components/molecules/Callout.svelte";
+//  import CodeBlock from "$lib/components/molecules/CodeBlock.svelte";
+ // import Image from "$lib/components/atoms/Image.svelte";
 </script>
 
-All blog posts are located inside the `src/routes/(blog-article)` folder. Each folder inside it represents a blog post, and each folder has a `+page.md` file, which is the file that contains the post's content.
 
-This way, the URL for each blog post is generated with the folder's name. For example, the folder `src/routes/(blog-article)/how-blog-posts-work` will generate the URL `https://mysite.com/how-blog-posts-work`.
 
-All posts are Markdown files, which means you can use the [Markdown syntax](https://www.markdownguide.org/basic-syntax) in them, and it will work out of the box. However, since this projects uses [MDsveX](https://mdsvex.pngwn.io/) to parse Markdown, you can also use Svelte components inside them! This means that the components used in other pages can also be used in blog posts.
+# 1 Биологични особености
 
-<Callout type="info">
-  This is a Svelte component inside a Markdown file!
-</Callout>
+### 1.1.Таксономия и видово разнообразие
 
-## Processing
+Моруните (*Huso huso*) и другите есетри са видове риби от семейство  
+Есетрови (*Acipenseridae*), което принадлежи към разреда Есетрообразни  
+(*Acipenseriformes*).  
 
-Besides the blog post page itself, the blog posts can be displayed in other places, such as the `/blog` page, which lists all blog posts, and the `<RecentPosts>` component, used in the home page.
+В река Дунав се срещат няколко вида есетри, като най-голямата и известна  
+сред тях е дунавската моруна, която мигрира от Черно море за да хвърли  
+хайвера си. Други видове есетра, които се срещат в река Дунав включват:  
+руска есетра, шип, чига и други.  
 
-To be able to do that, posts are processed in the `src/lib/data/blog-posts/index.ts` file. That file imports the blog post files and processes them, so we're able to use some of the post's metadata to list them. For example, we get the post's title, cover image, and calculate the reading time based on its content, so that information is displayed in the blog post cards in the `/blog` page.
+### 1.2.Морфология и размери
 
-There is also some basic logic to get related posts based on a post's tags. The logic should be straightforward enough to modify it to your needs.
+Моруните имат издължено, вретеновидно тяло, покрито с пет реда костни  
+плочки вместо люспи. Муцуната ѝ е широка и плоска, с четири сензорни  
+мустачки, а устата й е разположена коремно. Горната част на опашката й е  
+по-дълга от долната.  
 
-## Creating a new post
+Окраската ѝ е сиво-черна по гърба и сребристобяла по корема.  
 
-To create a new post, create a new folder inside the `src/routes/(blog-article)` folder, and inside it, create a `+page.md` file. The folder name will be used as the post's URL slug, so make sure it's a valid URL slug.
+Обикновено достига 2,5--4 метра и 200--400 кг, но максимално може да  
+нарасне до 7 метра и 1500 кг.  
 
-Inside the `+page.md` file, you must start with the front matter, which is a YAML-like syntax that is used to define metadata for the post. The front matter must be the first thing in the file, and must be separated from the rest of the content by three dashes (`---`). An example of a front matter is:
+### 1.3.Жизнен цикъл, хранене и размножаване
 
-<CodeBlock lang="markdown">
+Есетрите са преходни(*анадромни*) видове: прекарват по-голямата част от  
+живота си в солените води на Черно море, но за размножаване навлизат в  
+Дунава. Хранят се с раковини, малки рибки, ракообразни и червеи.  
 
-```md
----
-slug: my-new-blog-post
-title: My New Blog Post
-date: 2023-04-22T20:45:25.350Z
-excerpt: A short description of the post
-coverImage: /images/posts/cover-image.jpg
-tags:
-  - Example
----
-```
+Нерестът е през пролетта (април -- юни) в горното течение на Дунав и  
+притоците му. По време на размножаване мигрират на стотици километри  
+нагоре по реката,най-често до района на „Железните врата" на границата  
+между Сърбия и Румъния (днес засегната от язовири). Женската снася до 1  
+милион яйца.  
 
-</CodeBlock>
+### 1.4.Хабитат и миграционни маршрути
 
-## Managing blog posts
+Каспийско и Черно море, заедно с вливащите се в тях реки, са  
+единствените местообитания на моруната. Основната среда на възрастните  
+есетри е Черно море, където прекарват голяма част от живота си. Въпреки  
+солената вода на Черно море, моруните се връщат в сладководните реки  
+като Дунав за размножаване. Някои моруни мигрират и в притоците на  
+реката.  
 
-I highly recommend the [Front Matter VS Code extension](https://frontmatter.codes/) to manage blog posts. It gives you a nice CMS-like UI to manage the front matter of all blog posts, as well as a preview of their content. It is, of course, optional, and you can manage everything directly in the Markdown files if you prefer.
 
-<Image fullBleed src="/images/posts/frontmatter-preview-dashboard.png" alt="Screenshot of the Front Matter VS Code extension, showing the dashboard with all posts" />
 
-<Image fullBleed src="/images/posts/frontmatter-preview-edit.png" alt="Screenshot of the Front Matter VS Code extension, showing the post editing UI" />
 
-## RSS
+# 2 Причини за намаляване на числеността им
 
-This template automatically generates a RSS feed of your blog posts. It is generated in the `src/routes/rss.xml/+server.ts` file, and it is available at the `/rss.xml` URL.
+### 2.1. Бракониерство
+
+Свръхуловът на моруните е един от основните фактори за намаляване на  
+тяхната популация. Въпреки че есетрите, включително моруните (*Huso  
+huso*), са защитени от международни и национални закони, незаконният лов  
+и прекомерният улов продължават да бъдат сериозен проблем. Една от  
+основните причини за лова на моруните са високото търсене на техния  
+хайвер.  
+
+Ловът с незаконни мрежи и електрически уреди унищожава възрастните  
+индивиди още преди да достигнат местата за размножаване.  
+
+### 2.2. Загуба на местообитание и източници на храна
+
+Загубата на естествената среда е една от основните причини за намаляване  
+на популацията на моруните. Това се дължи на човешки дейности като  
+строежа на язовири по реката, което пречи на свободната миграция на  
+моруните. Такива бариери блокират достъпа до местата, където те хвърлят  
+хайвера си.  
+
+Замърсяването на Дунав чрез промишлени отпадъци и селскостопански води  
+намалява качеството на водата. Това вреди не само на моруните, но и на  
+всички речни организми, водейки до унищожаване на основните им източници  
+на храна.  
+
+### 2.3. Ограничаване размножителните места в реките
+
+Изграждането на язовири и водноелектрически централи (ВЕЦ) по река Дунав  
+и нейните притоци е пречка за размножаването на моруните. Тези  
+съоръжения блокират естествените миграционни маршрути на рибите, като ги  
+възпират да достигнат до места за хвърляне на хайвер.  
+
+Особено важна преграда е язовирният комплекс \"Железни врата\" на  
+границата между Сърбия и Румъния. След построяването му достъпът на  
+моруните до голяма част от размножителните зони в горния Дунав е напълно  
+прекъснат.  
+
+Липсата на рибни преходи води до почти пълно изчезване на популациите на  
+моруните.  
+
+
+
+
+# 3.Заключение
+
+ Моруните са ключов индикатор за  
+екологичното състояние на Дунав, но популациите им са критично  
+застрашени от човешка дейност. Запазването им изисква строго  
+контролиране на бракониерството, възстановяване на хабитатите и  
+изграждане на миграционни коридори.  
+
+![Моруна](images/moruna2.png)  
+
+
