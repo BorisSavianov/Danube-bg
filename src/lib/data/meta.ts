@@ -4,11 +4,18 @@
 
 export const siteBaseUrl = 'https://danube-bg.vercel.app/';
 
-export const keywords = ['Svelte', 'SvelteKit', 'Template', 'Blog', 'Starter', 'Static Site', 'Danube'];
+export const keywords = [
+	'Svelte',
+	'SvelteKit',
+	'Template',
+	'Blog',
+	'Starter',
+	'Static Site',
+	'Danube'
+];
 
-export const description =
-	'A light, neat, and easy-to-use SvelteKit template for your next website.';
+export const description = 'Всичко за Дунав';
 
 export const title = 'Дунав';
 
-export const image = `${siteBaseUrl}/images/site-preview.png`;
+export const image = `${siteBaseUrl}/images/danube.jpg`;
