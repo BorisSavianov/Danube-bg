@@ -1,16 +1,15 @@
 ---
-slug: project-structure
+slug: vodata
 title: Водата в река Дунав – екологичен фактор и среда на живот
 date: 2023-04-22T21:55:21.800Z
-excerpt: How code and structure are organized.
+excerpt:
 coverImage: /images/voda1.jpg
-
+tags: ['замърсяване', 'екологични проблеми', 'река дунав', 'вода', 'екосистема']
 ---
 
 <script>
   import CodeBlock from "$lib/components/molecules/CodeBlock.svelte";
 </script>
-
 
 Дунав е втората по дължина река в Европа и протича през най-много  
 държави в света – 10 на брой. Тя е определяна като гръбнакът на  
@@ -43,6 +42,5 @@ coverImage: /images/voda1.jpg
 др. Продължават да се изграждат и множество пречиствателни станции,  
 обслужващи населени места по в близост до реката.
 
-
 ![Моруна](/images/voda2.jpg)  
-![Моруна](/images/voda3.jpg)  
+![Моруна](/images/voda3.jpg)

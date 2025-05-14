@@ -3,7 +3,8 @@ title: Моруните-символ на животинския свят в р�
 slug: moruni
 coverImage: /images/moruna1.jpg
 date: 2023-04-22T21:55:15.361Z
-excerpt: How to manage existing blog posts and create new ones
+excerpt:
+tags: ['моруна', 'есетри', 'речни риби', 'биоразнообразие', 'застрашени видове']
 ---
 
 <script>

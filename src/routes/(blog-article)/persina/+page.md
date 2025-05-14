@@ -1,13 +1,11 @@
 ---
-slug: customization
+slug: persina
 title: Природен парк „Персина"
 date: 2023-04-22T21:55:27.154Z
-excerpt: How to customize what you're seeing here and make it your own.
+excerpt: 
 coverImage: /images/prirodenpark2.jpg
-
+tags: ['природни паркове', 'персина', 'биоразнообразие', 'защитени територии', 'дунавски биотоп']
 ---
-
-
 
 Уникалният за България Природен парк „Персина", разположен на  
 територията на три общини (Никопол, Белене и Свищов), е създаден на 4  
@@ -52,9 +50,4 @@ coverImage: /images/prirodenpark2.jpg
 червената чапла, лопатарка, забележителния блестящ ибис, белооката  
 потапница и грациозните речна и белочела рибарка.
 
-
-
-
-
-
-![Моруна](/images/prirodenpark1.jpg)  
+![Моруна](/images/prirodenpark1.jpg)
