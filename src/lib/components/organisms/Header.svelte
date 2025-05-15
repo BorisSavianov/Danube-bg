@@ -47,14 +47,6 @@
 			display: flex;
 			align-items: center;
 			gap: 30px;
-
-			@include for-phone-only {
-				.links {
-					a {
-						display: none;
-					}
-				}
-			}
 		}
 
 		.logo {

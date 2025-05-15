@@ -16,6 +16,7 @@
 		<Sparkles />
 	</div>
 </section>
+
 <div class="content">
 	<h2>Дунав</h2>
 	<h2>Дунав</h2>
@@ -50,6 +51,21 @@
 	.content h2:nth-child(2) {
 		color: #62acf1;
 		animation: animate 4s ease-in-out infinite;
+	}
+
+	@media (max-width: 1000px) {
+		.content h2 {
+			font-size: 6em;
+		}
+	}
+
+	@media (max-width: 600px) {
+		.content {
+			width: 250px;
+		}
+		.content h2 {
+			font-size: 4em;
+		}
 	}
 
 	@keyframes animate {
