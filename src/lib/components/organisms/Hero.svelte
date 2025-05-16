@@ -6,11 +6,9 @@
 </script>
 
 <section id="hero">
-	<h1 class="hello">Река Дунав</h1>
+	<h1 class="hello">Реката на живота</h1>
 	<p class="intro">
-		<span class="right" style="text-align: center;"
-			>Запазване и възстановяване на местообитания и растителни и животински видове.</span
-		>
+		<span class="right" style="text-align: center;">Природните чудеса на Дунав</span>
 	</p>
 	<div class="ctas">
 		<Sparkles />

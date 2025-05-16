@@ -1,43 +1,60 @@
-import type { Feature } from "$lib/utils/types";
+import type { Feature } from '$lib/utils/types';
 
-export default [ 
-  {
-    name: 'Markdown Support',
-    description:
-      'Blog posts are written in Markdown, a simple and nearly-universal format. This means you can bring over your posts from other platforms, and easily export to another if you want to.',
-    image: 'images/features/markdown.jpg',
-    tags: [{ label: 'Powered by MDsveX' }]
-  }, 
-  {
-    name: 'Themeable',
-    description:
-      'You can easily theme the entire website by changing just a few colors in the _themes.scss file.',
-    image: 'images/features/themeable.jpg',
-    tags: [{ label: 'Primary Color' }, { label: 'Secondary Color', color: 'secondary' }]
-  }, 
-  {
-    name: 'Extensible',
-    description:
-      'Components are built to be reused, and you can build new pages and layouts without much CSS knowledge. You can see all components in Histoire by running "npm run story:dev"',
-    image: 'images/features/extensible.jpg',
-  }, 
-  {
-    name: 'Well Optimized',
-    description:
-      'Images are automatically optimized and lazy loaded, to ensure the website loads as fast as possible regardless of connection speed.',
-    image: 'images/features/optimized.jpg',
-    tags: [{ label: 'Powered by Image Transmutation' }]
-  }, 
-  {
-    name: 'Light and Dark Modes',
-    description:
-      'This template was built with dark mode in mind. It can swap between themes automatically (based on system settings) or manually. Both themes can be tweaked in the _themes.scss file.',
-    image: 'images/features/light-dark.jpg',
-  },
-  {
-    name: 'Open Source',
-    description:
-      'All code is open source, which means you can copy and modify it to your heart\'s content. All I ask is that you make your code open too so that knowledge can be passed on.',
-    image: 'images/features/open-source.jpg'
-  },
+export default [
+	{
+		name: 'Заплахи за биоразнообразието',
+		description: `<ul>
+        <li>Замърсяване (промишлено, битово, аграрно)</li>
+        <li>Хидротехнически съоръжения (язовири, диги, канали)</li>
+        <li>Инвазивни видове – <a href="https://esenias.org/files/ESENIAS_Atlas_WEB.pdf" target="_blank">линк</a></li>
+        <li>Интензивно земеделие и обезлесяване</li>
+        <li>Климатични промени</li>
+      </ul>`,
+		image: 'images/features/threats.jpg',
+		tags: [{ label: 'Биоразнообразие' }]
+	},
+
+	{
+		name: 'Дейности и инициативи за опазване',
+		description: `<ul>
+        <li>Национални и трансгранични природозащитни проекти: ICPDR (Международна комисия за опазване на р. Дунав)</li>
+        <li>Проект "Danubeparks" – мрежа от паркове по Дунав</li>
+        <li>Natura 2000 – ЕС мрежа от защитени зони</li>
+        <li>Проекти за възстановяване на влажни зони</li>
+        <li>Програми за рибна миграция и опазване на есетрови риби</li>
+      </ul>`,
+		image: 'images/features/conservation.jpg',
+		tags: [{ label: 'Екологични проекти' }]
+	},
+
+	{
+		name: 'Образование и участие на обществото',
+		description: `<ul>
+        <li>Кампания „Живият Дунав“ на WWF</li>
+        <li>Ден на Дунав – 29 юни</li>
+        <li>Кампании за осведомяване на местното население</li>
+        <li>Образователни програми в училища и университети</li>
+        <li>Туристически маршрути, подчертаващи природното богатство на Дунав</li>
+        <li>Екологични доброволчески акции</li>
+      </ul>`,
+		image: 'images/features/education.jpg',
+		tags: [{ label: 'Обществено участие' }]
+	},
+
+	{
+		name: 'Положителни примери',
+		description: `<ul>
+        <li>Частично възстановяване на популациите на есетра чрез изкуствено размножаване</li>
+        <li>Възстановени влажни зони в България, Румъния и Австрия</li>
+        <li>Намаляване на замърсяване чрез пречиствателни станции</li>
+      </ul>`,
+		image: 'images/features/success.jpg',
+		tags: [{ label: 'Добри практики' }]
+	},
+	{
+		name: 'За нас',
+		description: `Ние сме ученици от паралелка „Приложен програмист'', обединени от страстта към технологиите и отговорността към природата. Чрез своя екологичен проект искаме да обърнем  внимание на това как всички заедно можем да опазим река Дунав!`,
+		image: 'images/features/about.jpg',
+		tags: [{ label: 'Екип' }]
+	}
 ] as Feature[];

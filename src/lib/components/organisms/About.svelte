@@ -7,12 +7,12 @@
 <section id="about">
 	<div class="info">
 		<h2>
-			Всичко за биологията на
-			<SparklingHighlight color="secondary">Дунав!</SparklingHighlight>
+			Водата е богатство,
+			<SparklingHighlight color="secondary">водата е живот!</SparklingHighlight>
 		</h2>
 		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum velit voluptatibus commodi
-			autem provident quam labore, libero beatae praesentium voluptate?
+			Ако познаваме, ако пазим, ако се грижим за богатата дунавска екосистема с хиляди видове
+			растения, животни и микроорганизми ползите ще бъдат дългосрочни.
 		</p>
 	</div>
 	<div class="image">
