@@ -3,16 +3,15 @@
 	import GitHubIcon from '$lib/icons/socials/github.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import Sparkles from '../atoms/Sparkles.svelte';
+	import SparklingHighlight from '../molecules/SparklingHighlight.svelte';
 </script>
 
 <section id="hero">
 	<h1 class="hello">Реката на живота</h1>
 	<p class="intro">
+		<SparklingHighlight />
 		<span class="right" style="text-align: center;">Природните чудеса на Дунав</span>
 	</p>
-	<div class="ctas">
-		<Sparkles />
-	</div>
 </section>
 
 <div class="content">
@@ -27,8 +26,8 @@
 
 	.content {
 		position: relative;
-		margin: 75px auto;
-		width: 500px;
+		margin: 30vh auto auto auto;
+		width: 600px;
 		height: 200px;
 		display: flex;
 		justify-content: center;
@@ -36,7 +35,7 @@
 
 	.content h2 {
 		color: #fff;
-		font-size: 8em;
+		font-size: 5.5em;
 		position: absolute;
 	}
 

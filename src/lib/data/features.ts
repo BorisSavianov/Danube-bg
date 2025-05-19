@@ -10,7 +10,7 @@ export default [
         <li>Интензивно земеделие и обезлесяване</li>
         <li>Климатични промени</li>
       </ul>`,
-		image: 'images/features/threats.jpg',
+		image: 'images/features/alert.png',
 		tags: [{ label: 'Биоразнообразие' }]
 	},
 
@@ -23,7 +23,7 @@ export default [
         <li>Проекти за възстановяване на влажни зони</li>
         <li>Програми за рибна миграция и опазване на есетрови риби</li>
       </ul>`,
-		image: 'images/features/conservation.jpg',
+		image: 'images/features/conservation.png',
 		tags: [{ label: 'Екологични проекти' }]
 	},
 
@@ -37,7 +37,7 @@ export default [
         <li>Туристически маршрути, подчертаващи природното богатство на Дунав</li>
         <li>Екологични доброволчески акции</li>
       </ul>`,
-		image: 'images/features/education.jpg',
+		image: 'images/features/graduation-cap.png',
 		tags: [{ label: 'Обществено участие' }]
 	},
 
@@ -48,13 +48,13 @@ export default [
         <li>Възстановени влажни зони в България, Румъния и Австрия</li>
         <li>Намаляване на замърсяване чрез пречиствателни станции</li>
       </ul>`,
-		image: 'images/features/success.jpg',
+		image: 'images/features/goal.png',
 		tags: [{ label: 'Добри практики' }]
 	},
 	{
 		name: 'За нас',
 		description: `Ние сме ученици от паралелка „Приложен програмист'', обединени от страстта към технологиите и отговорността към природата. Чрез своя екологичен проект искаме да обърнем  внимание на това как всички заедно можем да опазим река Дунав!`,
-		image: 'images/features/about.jpg',
+		image: 'images/features/info.png',
 		tags: [{ label: 'Екип' }]
 	}
 ] as Feature[];

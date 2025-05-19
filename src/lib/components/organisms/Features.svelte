@@ -6,11 +6,7 @@
 	export let features: Feature[];
 </script>
 
-<ContentSection
-	id="features"
-	title="Нещо допълнително"
-	description="Евентуално да има нещо за идеята (вдъхновение, мотив)"
->
+<ContentSection id="features" title="Опазване на Дунав: Предизвикателства, Дейности и Успехи">
 	<div class="features-container">
 		<div class="three-group-grid">
 			{#each features as feature}

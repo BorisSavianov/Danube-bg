@@ -4,7 +4,11 @@
 	import Image from '../atoms/Image.svelte';
 </script>
 
-<section id="about">
+<section
+	id="about"
+	style="max-width: 600px; margin: 0 auto; grid-template-columns: auto; place-content: center;
+  text-align: center;"
+>
 	<div class="info">
 		<h2>
 			Водата е богатство,
@@ -15,9 +19,9 @@
 			растения, животни и микроорганизми ползите ще бъдат дългосрочни.
 		</p>
 	</div>
-	<div class="image">
+	<!-- <div class="image">
 		<Image src="/images/danube.jpg" alt="Image of the Danube river" />
-	</div>
+	</div> -->
 </section>
 
 <style lang="scss">
