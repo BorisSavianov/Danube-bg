@@ -37,7 +37,7 @@ export default [
         <li>Туристически маршрути, подчертаващи природното богатство на Дунав</li>
         <li>Екологични доброволчески акции</li>
       </ul>`,
-		image: 'images/features/graduation-cap.png',
+		image: 'images/features/education.jpg',
 		tags: [{ label: 'Обществено участие' }]
 	},
 
@@ -54,7 +54,7 @@ export default [
 	{
 		name: 'За нас',
 		description: `Ние сме ученици от паралелка „Приложен програмист'', обединени от страстта към технологиите и отговорността към природата. Чрез своя екологичен проект искаме да обърнем  внимание на това как всички заедно можем да опазим река Дунав!`,
-		image: 'images/features/info.png',
+		image: 'images/features/class.jpg',
 		tags: [{ label: 'Екип' }]
 	}
 ] as Feature[];

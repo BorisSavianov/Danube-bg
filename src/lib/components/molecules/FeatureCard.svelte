@@ -32,11 +32,6 @@
 		align-items: flex-start;
 	}
 
-	.image {
-		padding: 20px;
-		object-fit: contain !important;
-	}
-
 	.title {
 		display: flex;
 		align-items: center;
