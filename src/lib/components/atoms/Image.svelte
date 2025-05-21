@@ -8,6 +8,9 @@
 	export let formats: string[] = ['avif', 'webp', 'png'];
 	export let widths: string[] | undefined = undefined;
 
+	// New prop to control object-fit
+	export let fit: 'cover' | 'contain' = 'cover';
+
 	$: fileName = src.split('.')[0];
 
 	function buildSrcset() {
@@ -37,12 +40,19 @@
 	}
 </script>
 
-<img srcset={buildSrcset()} {src} {alt} loading="lazy" decoding="async" class:full-bleed={fullBleed} />
+<img
+	srcset={buildSrcset()}
+	{src}
+	{alt}
+	loading="lazy"
+	decoding="async"
+	class:full-bleed={fullBleed}
+	style="object-fit: {fit};"
+/>
 
 <style lang="scss">
 	img {
 		width: 100%;
 		height: 100%;
-		object-fit: contain;
 	}
 </style>
