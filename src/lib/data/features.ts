@@ -4,20 +4,18 @@ export default [
 	{
 		name: 'За нас',
 		description: `Ние сме ученици от паралелка „Приложен програмист'', обединени от страстта към технологиите и отговорността към природата. Чрез своя екологичен проект искаме да обърнем  внимание на това как всички заедно можем да опазим река Дунав!`,
-		image: 'images/features/class.jpg',
-		tags: [{ label: 'Екип' }]
+		image: 'images/features/class.jpg'
 	},
 	{
 		name: 'Заплахи за биоразнообразието',
 		description: `<ul>
         <li>Замърсяване (промишлено, битово, аграрно)</li>
         <li>Хидротехнически съоръжения (язовири, диги, канали)</li>
-        <li>Инвазивни видове – <a href="https://esenias.org/files/ESENIAS_Atlas_WEB.pdf" target="_blank">линк</a></li>
+        <li>Инвазивни видове – <a href="https://esenias.org/files/ESENIAS_Atlas_WEB.pdf" target="_blank">ESENIAS Атлас</a></li>
         <li>Интензивно земеделие и обезлесяване</li>
         <li>Климатични промени</li>
       </ul>`,
-		image: 'images/features/alert.png',
-		tags: [{ label: 'Биоразнообразие' }]
+		image: 'images/features/hires6.png'
 	},
 
 	{
@@ -29,8 +27,7 @@ export default [
         <li>Проекти за възстановяване на влажни зони</li>
         <li>Програми за рибна миграция и опазване на есетрови риби</li>
       </ul>`,
-		image: 'images/features/conservation.png',
-		tags: [{ label: 'Екологични проекти' }]
+		image: 'images/features/hires5.png'
 	},
 
 	{
@@ -43,8 +40,7 @@ export default [
         <li>Туристически маршрути, подчертаващи природното богатство на Дунав</li>
         <li>Екологични доброволчески акции</li>
       </ul>`,
-		image: 'images/features/education.jpg',
-		tags: [{ label: 'Обществено участие' }]
+		image: 'images/features/education.jpg'
 	},
 
 	{
@@ -54,7 +50,6 @@ export default [
         <li>Възстановени влажни зони в България, Румъния и Австрия</li>
         <li>Намаляване на замърсяване чрез пречиствателни станции</li>
       </ul>`,
-		image: 'images/features/goal.png',
-		tags: [{ label: 'Добри практики' }]
+		image: 'images/features/hires3.png'
 	}
 ] as Feature[];
